@@ -82,5 +82,11 @@ int main(){
     printf("PIB: %.2f bilhões de reais\n", pib2);
     printf("Número de Pontos Turísticos: %d\n", pontosTuristicos2);
 
+
+    //Densidedade populacional carta 1
+    soma = populacao1 / area1;
+    
+    printf("A Densidade populacionald da Carta 1 é: %f"\n, soma);
+    
     return 0;
 }
