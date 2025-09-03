@@ -9,6 +9,7 @@ int main(){
     float area1;
     float pib1;
     int pontosTuristicos1;
+    float soma;
 
     //Variáveis da Carta 2
     char estado2;
@@ -84,9 +85,9 @@ int main(){
 
 
     //Densidedade populacional carta 1
-    soma = populacao1 / area1;
+     soma = populacao1 / area1;
     
-    printf("A Densidade populacionald da Carta 1 é: %f"\n, soma);
+    printf("A Densidade populacional da Carta 1 é: %f\n", soma);
     
     return 0;
 }
